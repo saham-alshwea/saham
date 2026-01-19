@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <title>اتصل بنا - قهوتنا</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="اتصل بنا, تواصل معنا, فرع المقهى, مواقع الفروع" name="keywords">
+    <meta content="تواصل مع فريق قهوتنا، نحن هنا لمساعدتك في أي استفسار أو ملاحظة أو حجز" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS Files -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <h1>قهوتنا</h1>
+            </a>
+            <input type="checkbox" id="navbar-toggle">
+            <label for="navbar-toggle" class="navbar-toggler">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="index.html" class="nav-item nav-link">الرئيسية</a>
+                    <a href="about.html" class="nav-item nav-link">عن المقهى</a>
+                    <a href="service.html" class="nav-item nav-link">خدماتنا</a>
+                    <a href="menu.html" class="nav-item nav-link">قائمة المشروبات</a>
+                    <a href="contact.html" class="nav-item nav-link active">اتصل بنا</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <section class="hero contact-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>تواصل معنا</h1>
+                <p>نحن هنا لمساعدتك، لا تتردد في التواصل معنا لأي استفسار أو ملاحظة</p>
+            </div>
+        </div>
+    </section>
+    <!-- Page Header End -->
+
+    <!-- Contact Section Start -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="section-title">
+                <h4>اتصل بنا</h4>
+                <h1>كن على تواصل مع فريق قهوتنا</h1>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="contact-form-container">
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">الاسم الكامل *</label>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">البريد الإلكتروني *</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="phone">رقم الجوال</label>
+                                    <input type="tel" id="phone" name="phone">
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject">الموضوع *</label>
+                                    <select id="subject" name="subject" required>
+                                        <option value="">اختر الموضوع</option>
+                                        <option value="استفسار">استفسار عام</option>
+                                        <option value="شكوى">شكوى أو اقتراح</option>
+                                        <option value="حجز">استفسار عن الحجز</option>
+                                        <option value="فعاليات">الفعاليات والمناسبات</option>
+                                        <option value="其他">أخرى</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">الرسالة *</label>
+                                <textarea id="message" name="message" rows="6" required
+                                    placeholder="اكتب رسالتك هنا..."></textarea>
+                            </div>
+
+                            <div class="form-submit">
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="fas fa-paper-plane"></i>
+                                    إرسال الرسالة
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>عنواننا</h3>
+                                <p>حي البجيري، الدرعية<br>الرياض، المملكة العربية السعودية</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>هاتفنا</h3>
+                                <p>+966 55 123 4567</p>
+                                <p>+966 11 234 5678</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>البريد الإلكتروني</h3>
+                                <p>info@qahwatuna.com</p>
+                                <p>support@qahwatuna.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>أوقات العمل</h3>
+                                <p>الأحد - الخميس: 7:00 صباحاً - 12:00 منتصف الليل</p>
+                                <p>الجمعة - السبت: 8:00 صباحاً - 1:00 منتصف الليل</p>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <h3>تابعونا على</h3>
+                            <div class="social-icons">
+                                <a href="#" class="social-icon">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="social-icon">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" class="social-icon">
+                                    <i class="fab fa-snapchat-ghost"></i>
+                                </a>
+                                <a href="#" class="social-icon">
+                                    <i class="fab fa-tiktok"></i>
+                                </a>
+                                <a href="https://wa.me/966551234567" class="social-icon">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+ 
+    <!-- Footer Start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <h4>عنواننا</h4>
+                    <p><span class="footer-icon"><i class="fas fa-map-marker-alt"></i></span>حي البجيري، الدرعية، الرياض
+                    </p>
+                    <p><span class="footer-icon"><i class="fas fa-phone"></i></span>+966 55 123 4567</p>
+                    <p><span class="footer-icon"><i class="fas fa-envelope"></i></span>info@qahwatuna.com</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4>تابعونا</h4>
+                    <p>كن أول من يعرف عن عروضنا الخاصة والفعاليات الأسبوعية.</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-snapchat-ghost"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4>أوقات العمل</h4>
+                    <div class="working-hours">
+                        <h6>الأحد - الخميس</h6>
+                        <p>7:00 صباحاً - 12:00 منتصف الليل</p>
+                        <h6>الجمعة - السبت</h6>
+                        <p>8:00 صباحاً - 1:00 منتصف الليل</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4>النشرة البريدية</h4>
+                    <p>اشترك في نشرتنا لتصلك آخر العروض والأخبار.</p>
+                    <div class="newsletter-form">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="بريدك الإلكتروني">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary">اشتراك</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <p>جميع الحقوق محفوظة &copy; <a href="#">قهوتنا</a> 2026</p>
+                <p>صمم بـ ❤️ لصناعة تجربة قهوة لا تنسى</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+</body>
+
+</html>

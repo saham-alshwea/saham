@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <title>قائمة الطعام - قهوتنا</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="قهوة, مشروبات, حلويات, قائمة طعام, مقهى" name="keywords">
+    <meta content="استمتع بأجود أنواع القهوة والمشروبات والحلويات في قهوتنا، قائمة متنوعة تناسب جميع الأذواق"
+        name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS Files -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <h1>قهوتنا</h1>
+            </a>
+            <input type="checkbox" id="navbar-toggle">
+            <label for="navbar-toggle" class="navbar-toggler">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="index.html" class="nav-item nav-link">الرئيسية</a>
+                    <a href="about.html" class="nav-item nav-link">عن المقهى</a>
+                    <a href="service.html" class="nav-item nav-link">خدماتنا</a>
+                    <a href="menu.html" class="nav-item nav-link active">قائمة المشروبات</a>
+                    <a href="contact.html" class="nav-item nav-link">اتصل بنا</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <section class="hero menu-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>قائمة طعامنا</h1>
+                <p>استمتع بمجموعة متنوعة من أشهى المشروبات والحلويات المحضرة بأيدٍ خبيرة</p>
+            </div>
+        </div>
+    </section>
+    <!-- Page Header End -->
+
+    <!-- Menu Categories Start -->
+    <section class="menu-categories">
+        <div class="container">
+            <div class="section-title">
+                <h4>فئات القائمة</h4>
+                <h1>اكتشف تنوعنا اللذيذ</h1>
+            </div>
+
+            <div class="category-tabs">
+                <input type="radio" name="category-tab" id="tab1" checked>
+                <input type="radio" name="category-tab" id="tab2">
+                <input type="radio" name="category-tab" id="tab3">
+
+                <div class="tab-labels">
+                    <label for="tab1">القهوة الساخنة</label>
+                    <label for="tab2">القهوة الباردة</label>
+                    <label for="tab3">الحلويات</label>
+                </div>
+
+                <div class="tab-content">
+                    <!-- القهوة الساخنة -->
+                    <div class="tab-pane" id="tab1-content">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu-1.jpg" alt="إسبريسو">
+                                    </div>
+                                    <div class="menu-content">
+                                        <div class="menu-title">
+                                            <h4>إسبريسو</h4>
+                                            <span class="menu-price">12 ر.س</span>
+                                        </div>
+                                        <p>قهوة إيطالية مركزة من حبوب أرابيكا المختارة، تقدس بكمية صغيرة من الماء</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu-2.jpg" alt="كابتشينو">
+                                    </div>
+                                    <div class="menu-content">
+                                        <div class="menu-title">
+                                            <h4>كابتشينو</h4>
+                                            <span class="menu-price">16 ر.س</span>
+                                        </div>
+                                        <p>مزيج متوازن من الإسبريسو والحليب المبخر ورغوة الحليب، برشة من مسحوق الكاكاو
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu-3.jpg" alt="لاتيه">
+                                    </div>
+                                    <div class="menu-content">
+                                        <div class="menu-title">
+                                            <h4>لاتيه</h4>
+                                            <span class="menu-price">18 ر.س</span>
+                                        </div>
+                                        <p>قهوة لاتيه كلاسيكية مع تصميم فني على السطح، نسبة مثالية من الحليب إلى القهوة
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/service-3.jpg" alt="قهوة عربية">
+                                    </div>
+                                    <div class="menu-content">
+                                        <div class="menu-title">
+                                            <h4>قهوة عربية</h4>
+                                            <span class="menu-price">15 ر.س</span>
+                                        </div>
+                                        <p>قهوة عربية أصيلة بطعم الهيل والزعفران، تحضر على الطريقة التقليدية</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- القهوة الباردة -->
+                    <div class="tab-pane" id="tab2-content">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/service-4.jpg" alt="آيس كوفي">
+                                    </div>
+                                    <div class="menu-content">
+                                        <div class="menu-title">
+                                            <h4>آيس كوفي</h4>
+                                            <span class="menu-price">20 ر.س</span>
+                                        </div>
+                                        <p>قهوة مثلجة مع حليب بارد وقطع ثلج، مثالية لأيام الصيف الحارة</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/service-3.jpg" alt="موكا مثلجة">
+                                    </div>
+                                    <div class="menu-content">
+                                        <div class="menu-title">
+                                            <h4>موكا مثلجة</h4>
+                                            <span class="menu-price">22 ر.س</span>
+                                        </div>
+                                        <p>مزيج منعش من القهوة الباردة والشوكولاتة والكريمة، تعلوها رقائق شوكولاتة</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/service-2.jpg" alt="فرابيه">
+                                    </div>
+                                    <div class="menu-content">
+                                        <div class="menu-title">
+                                            <h4>فرابيه</h4>
+                                            <span class="menu-price">21 ر.س</span>
+                                        </div>
+                                        <p>مشروب قهوة مثلج مخفوق، متوفر بنكهات الفانيليا، الكراميل، أو البندق</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/service-1.jpg" alt="قهوة مثلجة بالنعناع">
+                                    </div>
+                                    <div class="menu-content">
+                                        <div class="menu-title">
+                                            <h4>قهوة مثلجة بالنعناع</h4>
+                                            <span class="menu-price">19 ر.س</span>
+                                        </div>
+                                        <p>قهوة مثلجة منعشة مع نكهة النعناع الطبيعية، تقدم مع شرائح ليمون</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- الحلويات -->
+                    <div class="tab-pane" id="tab3-content">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/service-1.jpg" alt="تشيز كيك">
+                                    </div>
+                                    <div class="menu-content">
+                                        <div class="menu-title">
+                                            <h4>تشيز كيك</h4>
+                                            <span class="menu-price">25 ر.س</span>
+                                        </div>
+                                        <p>تشيز كيك كريمي مع قشرة بسكويت هشة، متوفر بنكهات التوت أو الشوكولاتة</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/service-2.jpg" alt="ماكارون">
+                                    </div>
+                                    <div class="menu-content">
+                                        <div class="menu-title">
+                                            <h4>ماكارون</h4>
+                                            <span class="menu-price">18 ر.س</span>
+                                        </div>
+                                        <p>حلوى ماكارون الفرنسية بأنواع مختلفة من الحشوات والنكهات</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/service-3.jpg" alt="كيكة الجبن">
+                                    </div>
+                                    <div class="menu-content">
+                                        <div class="menu-title">
+                                            <h4>كيكة الجبن</h4>
+                                            <span class="menu-price">22 ر.س</span>
+                                        </div>
+                                        <p>كيكة الجبن المخبوزة مع طبقة من التوت الطازج، خفيفة وناعمة</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/service-4.jpg" alt="براوني">
+                                    </div>
+                                    <div class="menu-content">
+                                        <div class="menu-title">
+                                            <h4>براوني</h4>
+                                            <span class="menu-price">20 ر.س</span>
+                                        </div>
+                                        <p>براوني الشوكولاتة الغني مع قطع الجوز، يقدم مع آيس كريم الفانيليا</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Menu Categories End -->
+
+    <!-- Special Offers Start -->
+    <section class="special-offers">
+        <div class="container">
+            <div class="section-title">
+                <h4>عروض خاصة</h4>
+                <h1>وجبات وعروض مميزة</h1>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="offer-card">
+                        <div class="offer-img">
+                            <img src="img/service-1.jpg" alt="وجبة الإفطار">
+                            <div class="offer-badge">عرض خاص</div>
+                        </div>
+                        <div class="offer-content">
+                            <h3>وجبة الإفطار</h3>
+                            <p>قهوة + عصير طازج + ساندوتش</p>
+                            <div class="offer-price">
+                                <span class="original-price">45 ر.س</span>
+                                <span class="discount-price">35 ر.س</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="offer-card">
+                        <div class="offer-img">
+                            <img src="img/service-2.jpg" alt="وجبة القهوة والحلويات">
+                            <div class="offer-badge">الأكثر مبيعاً</div>
+                        </div>
+                        <div class="offer-content">
+                            <h3>وجبة القهوة والحلويات</h3>
+                            <p>قهوة + حلوى من اختيارك</p>
+                            <div class="offer-price">
+                                <span class="original-price">40 ر.س</span>
+                                <span class="discount-price">32 ر.س</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="offer-card">
+                        <div class="offer-img">
+                            <img src="img/service-3.jpg" alt="عائلة قهوتنا">
+                            <div class="offer-badge">عرض العائلة</div>
+                        </div>
+                        <div class="offer-content">
+                            <h3>عائلة قهوتنا</h3>
+                            <p>3 مشروبات + 2 حلويات + مكسرات</p>
+                            <div class="offer-price">
+                                <span class="original-price">85 ر.س</span>
+                                <span class="discount-price">70 ر.س</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Special Offers End -->
+
+</body>
+
+</html>
